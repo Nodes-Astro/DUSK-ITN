@@ -25,7 +25,7 @@ apt-get install protobuf-compiler
 curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/dusk-network/itn-installer/main/itn-installer.sh | sudo sh
 ```
 
-#### ⚠️ Bu aşamada kernel ile ilgili hata alırsanız terminalden çıkıp tekrar login olun ve kodu tekrar çalıştırın düzelecektir.
+#### ⚠️Bu aşamada kernel ile ilgili hata alırsanız terminalden çıkıp tekrar login olun ve kodu tekrar çalıştırın düzelecektir.
 
 ## Rusk Konfigürasyonu
 
@@ -53,11 +53,11 @@ Bunu gördükten sonra işlem tamam, tokenleri gelmesi yarım saat kadar sürebi
 ```
 rusk-wallet restore
 ```
-#### ⚠️ Kelimeleri tek tek "küçük harfle yazalım".
+#### ⚠️Kelimeleri tek tek "küçük harfle yazalım".
 
 ℹ️ Şifremizi oluşturalım ve devam edelim.
 
-#### ⚠️ "Some operations won't be available" diye bir error görürseniz aldırış etmeden devam edin henüz çalışan bir node olmadığı için bu hatayı veriyor.
+#### ⚠️"Some operations won't be available" diye bir error görürseniz aldırış etmeden devam edin henüz çalışan bir node olmadığı için bu hatayı veriyor.
 
 ```
 rusk-wallet export -d /opt/dusk/conf -n consensus.keys
@@ -82,7 +82,7 @@ grep "block accepted" /var/log/rusk.log
 
 ![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/a1a954d6-74ef-48e9-88ff-7255df8fa76b)
 
-ℹ️ Buradan sonra sync olmayı bekliyoruz explorerdan block height'a bakın ve node'unuz ile karşılaştırın. Güncel blok height'a ulaştığınızda bir sonraki aşamaya geçebilirsiniz. (Yeşil işaretlediğim yer kendi block height'ınız)
+#### ℹ️ Buradan sonra sync olmayı bekliyoruz explorerdan block height'a bakın ve node'unuz ile karşılaştırın. Güncel blok height'a ulaştığınızda bir sonraki aşamaya geçebilirsiniz. (Yeşil işaretlediğim yer kendi block height'ınız)
 
 ## Stake tDUSK
 
