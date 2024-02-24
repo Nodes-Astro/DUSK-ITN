@@ -55,7 +55,7 @@ rusk-wallet restore
 ```
 #### ⚠️ Kelimeleri tek tek "küçük harfle yazalım".
 
-Şifremizi oluşturalım ve devam edelim.
+ℹ️ Şifremizi oluşturalım ve devam edelim.
 
 #### ⚠️ "Some operations won't be available" diye bir error görürseniz aldırış etmeden devam edin henüz çalışan bir node olmadığı için bu hatayı veriyor.
 
@@ -67,14 +67,14 @@ rusk-wallet export -d /opt/dusk/conf -n consensus.keys
 ```
 sh /opt/dusk/bin/setup_consensus_pwd.sh
 ```
-#### Eğer doğru konfigürasyonu yaptıysanız node'umuzu başlatabiliriz
+#### ℹ️ Eğer doğru konfigürasyonu yaptıysanız node'umuzu başlatabiliriz
 
 ## Node'umuzu Başlatıyoruz
 ```
 service rusk start
 ```
 
-#### Logları bu komut ile kontrol edebilirsiniz.
+#### ℹ️ Logları bu komut ile kontrol edebilirsiniz.
 ```
 grep "block accepted" /var/log/rusk.log
 ```
@@ -82,7 +82,7 @@ grep "block accepted" /var/log/rusk.log
 
 ![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/a1a954d6-74ef-48e9-88ff-7255df8fa76b)
 
-Buradan sonra sync olmayı bekliyoruz explorerdan block height'a bakın ve node'unuz ile karşılaştırın. Güncel blok height'a ulaştığınızda bir sonraki aşamaya geçebilirsiniz. (Yeşil işaretlediğim yer kendi block height'ınız)
+ℹ️ Buradan sonra sync olmayı bekliyoruz explorerdan block height'a bakın ve node'unuz ile karşılaştırın. Güncel blok height'a ulaştığınızda bir sonraki aşamaya geçebilirsiniz. (Yeşil işaretlediğim yer kendi block height'ınız)
 
 ## Stake tDUSK
 
