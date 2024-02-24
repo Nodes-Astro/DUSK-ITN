@@ -73,12 +73,15 @@ sh /opt/dusk/bin/setup_consensus_pwd.sh
 ```
 service rusk start
 ```
-
+#### ℹ️ Çalışıyor mu kontrol ediyoruz
+```
+service rusk status
+```
 #### ℹ️ Logları bu komut ile kontrol edebilirsiniz.
 ```
 grep "block accepted" /var/log/rusk.log
 ```
-#### Loglar bu şekilde gözükmeli
+#### Loglar bu şekilde gözükmeli (1 dakika bekleyin sonrasında loglar görünecektir.)
 
 ![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/a1a954d6-74ef-48e9-88ff-7255df8fa76b)
 
