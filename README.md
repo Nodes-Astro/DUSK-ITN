@@ -96,6 +96,24 @@ rusk-wallet stake --amt 1000
 ```
 1000 veya daha yüksek miktar yazabilirsiniz, şifremizi girip devam edelim.
 
+#### ℹ️ CTRL + C ile çıkış yapalım ve kontrol edelim
+
+```
+rusk-wallet stake-info
+```
+
+![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/f89dbf54-5480-49a2-88e9-2e86856fa252)
+
+#### ℹ️ Stake received diyorsa tamamdır.
+
+Node başarılı bir şekilde konsensüse katılıp blok üretiyor mu kontrol etmek için
+
+```
+grep "execute_state_transition" /var/log/rusk.log | tail -n 5
+```
+#### ℹ️ Bunu görüntülemek için en az 2 epoch geçmesi lazım yani uzun sürebilir, loglarınız sağlıklı ise kurulum tamamlandı, hayırlı olsun.
+
+
 
 
 
