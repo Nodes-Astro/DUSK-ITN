@@ -25,6 +25,8 @@ apt-get install protobuf-compiler
 curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/dusk-network/itn-installer/main/itn-installer.sh | sudo sh
 ```
 
+#### Bu aşamada kernel ile ilgili hata alırsanız terminalden çıkıp tekrar login olun ve kodu tekrar çalıştırın düzelecektir.
+
 ## Rusk Konfigürasyonu
 
 Öncelikle buradaki linkten bir Dusk cüzdanı oluşturalım:
