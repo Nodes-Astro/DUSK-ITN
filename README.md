@@ -87,8 +87,9 @@ Buradan sonra sync olmayı bekliyoruz explorerdan block height'a bakın ve node'
 Artık son aşamadayız, nodeumuza 1000 tDUSK üzerinde stake yaptığımız taktirde block producer olabiliyoruz.
 
 ```
-rusk-wallet stake --amt 1000 # 1000 veya daha yüksek  miktar yazabilirsiniz
+rusk-wallet stake --amt 1000
 ```
+1000 veya daha yüksek miktar yazabilirsiniz, şifremizi girip devam edelim.
 
 
 
