@@ -5,7 +5,7 @@ Dusk teşvikli testnet için Ubuntu 22.04 rehberidir.
 
 ![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/3430556d-a617-4036-ad27-b569eeaae0cf)
 
-#### Teşvikli testnet için gereken node'umuz Prover node ve sistem gereksinimleri bu şekilde.
+#### ℹ️ Teşvikli testnet için gereken node'umuz Prover node ve sistem gereksinimleri bu şekilde.
 
 ## Gereken Yüklemeler
 
@@ -25,7 +25,7 @@ apt-get install protobuf-compiler
 curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/dusk-network/itn-installer/main/itn-installer.sh | sudo sh
 ```
 
-#### Bu aşamada kernel ile ilgili hata alırsanız terminalden çıkıp tekrar login olun ve kodu tekrar çalıştırın düzelecektir.
+#### ⚠️ Bu aşamada kernel ile ilgili hata alırsanız terminalden çıkıp tekrar login olun ve kodu tekrar çalıştırın düzelecektir.
 
 ## Rusk Konfigürasyonu
 
@@ -53,16 +53,16 @@ Bunu gördükten sonra işlem tamam, tokenleri gelmesi yarım saat kadar sürebi
 ```
 rusk-wallet restore
 ```
-#### Kelimeleri tek tek "küçük harfle yazalım".
+#### ⚠️ Kelimeleri tek tek "küçük harfle yazalım".
 
 Şifremizi oluşturalım ve devam edelim.
 
-#### "Some operations won't be available" diye bir error görürseniz aldırış etmeden devam edin henüz çalışan bir node olmadığı için bu hatayı veriyor.
+#### ⚠️ "Some operations won't be available" diye bir error görürseniz aldırış etmeden devam edin henüz çalışan bir node olmadığı için bu hatayı veriyor.
 
 ```
 rusk-wallet export -d /opt/dusk/conf -n consensus.keys
 ```
-#### Sizden kriptolanmış bir konsensüs key isteyecek bunu unutmayın. Şifreyi yazın ve devam edin.
+#### ⚠️ Sizden kriptolanmış bir konsensüs key isteyecek bunu unutmayın. Şifreyi yazın ve devam edin.
 
 ```
 sh /opt/dusk/bin/setup_consensus_pwd.sh
