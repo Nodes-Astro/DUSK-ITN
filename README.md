@@ -80,7 +80,7 @@ grep "block accepted" /var/log/rusk.log
 
 ![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/a1a954d6-74ef-48e9-88ff-7255df8fa76b)
 
-Buradan sonra sync olmayı bekliyoruz explorerdan block height'a bakın ve node'unuz ile karşılaştırın. Güncel blok height'a ulaştığınızda bir sonraki aşamaya geçebilirsiniz.(Yeşil işaretlediğim yer kendi block height'ınız)
+Buradan sonra sync olmayı bekliyoruz explorerdan block height'a bakın ve node'unuz ile karşılaştırın. Güncel blok height'a ulaştığınızda bir sonraki aşamaya geçebilirsiniz. (Yeşil işaretlediğim yer kendi block height'ınız)
 
 ## Stake tDUSK
 
