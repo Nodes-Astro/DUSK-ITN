@@ -3,7 +3,7 @@
 ![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/177b330f-e6a0-48f2-846f-691ebbdfa344)
 
 
-## Dusk teşvikli testnet için Ubuntu 22.04 rehberidir.
+### Dusk teşvikli testnet için Ubuntu 22.04 rehberidir.
 
 ## Sistem Gereksinimleri
 
