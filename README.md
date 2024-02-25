@@ -106,9 +106,10 @@ rusk-wallet stake --amt 1000
 rusk-wallet stake-info
 ```
 
-![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/f89dbf54-5480-49a2-88e9-2e86856fa252)
+![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/cea9cac4-edee-44c8-b3a4-6f3ecb8215c3)
 
-#### ℹ️ Stake received diyorsa tamamdır.
+
+#### ℹ️ Stake received diyorsa ve aşağıda stake ettiğiniz miktar gözüküyorsa tamamdır.
 
 Node başarılı bir şekilde konsensüse katılıp blok üretiyor mu kontrol etmek için
 
