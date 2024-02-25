@@ -91,6 +91,8 @@ grep "block accepted" /var/log/rusk.log
 
 #### ℹ️ Buradan sonra sync olmayı bekliyoruz explorerdan block height'a bakın ve node'unuz ile karşılaştırın. Güncel blok height'a ulaştığınızda bir sonraki aşamaya geçebilirsiniz. (Yeşil işaretlediğim yer kendi block height'ınız)
 
+https://explorer.dusk.network/
+
 ## Stake tDUSK
 
 Artık son aşamadayız, nodeumuza 1000 tDUSK üzerinde stake yaptığımız taktirde block producer olabiliyoruz, eğer node'umuz sync olduysa bu aşamaya geçebiliriz.
