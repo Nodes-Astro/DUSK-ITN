@@ -100,9 +100,9 @@ Artık son aşamadayız, nodeumuza 1000 tDUSK üzerinde stake yaptığımız tak
 ```
 rusk-wallet stake --amt 1000
 ```
-1000 veya daha yüksek miktar yazabilirsiniz, şifremizi girip devam edelim.
+####  ℹ️ 1000 veya daha yüksek miktar yazabilirsiniz, Stake ettikten sonra bir sıralamaya giriyosunuz ve stake miktarına göre block producer olarak atanıyorsunuz yani 1000'den fazla stake etmeniz önerilir.
 
-#### ℹ️ Tx onaylanana kadar bekleyelim, bittiğinde kontrol edelim
+#### ℹ️ Şifremizi yazalım, tx onaylanana kadar bekleyelim, bittiğinde kontrol edelim
 
 ```
 rusk-wallet stake-info
