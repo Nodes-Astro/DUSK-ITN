@@ -106,8 +106,7 @@ rusk-wallet stake --amt 1000
 rusk-wallet stake-info
 ```
 
-![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/cea9cac4-edee-44c8-b3a4-6f3ecb8215c3)
-
+![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/02c8a8de-31c5-41db-adba-6b71d5b5d205)
 
 #### ℹ️ Stake received diyorsa ve aşağıda stake ettiğiniz miktar gözüküyorsa tamamdır.
 
