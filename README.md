@@ -102,7 +102,7 @@ rusk-wallet stake --amt 1000
 ```
 1000 veya daha yüksek miktar yazabilirsiniz, şifremizi girip devam edelim.
 
-#### ℹ️ CTRL + C ile çıkış yapalım ve kontrol edelim
+#### ℹ️ Tx onaylanana kadar bekleyelim, bittiğinde kontrol edelim
 
 ```
 rusk-wallet stake-info
