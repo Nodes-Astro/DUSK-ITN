@@ -2,6 +2,9 @@
 
 ![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/177b330f-e6a0-48f2-846f-691ebbdfa344)
 
+## Teşvikli Testnet Programı Detaylar:
+https://dusk.network/news/announcing-incentivized-testnet
+
 
 ### Dusk teşvikli testnet için Ubuntu 22.04 rehberidir.
 
@@ -117,7 +120,10 @@ Node başarılı bir şekilde konsensüse katılıp blok üretiyor mu kontrol et
 ```
 grep "execute_state_transition" /var/log/rusk.log | tail -n 5
 ```
-#### ℹ️ Bunu görüntülemek için en az 2 epoch geçmesi lazım yani uzun sürebilir, loglarınız sağlıklı ise kurulum tamamlandı, hayırlı olsun.
+#### ℹ️ Bunu görüntülemek için en az 2 epoch geçmesi lazım her block 2 saniyede oluşuyor ve 2 epoch'ta 4320 block var en az 2,4 saat sürüyor, Block üretmeye başladığınızda aşağıdaki gibi bir çıktı alacaksınız:
+
+![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/b5de029f-e9e0-4634-b937-439a723a1b59)
+
 
 
 
