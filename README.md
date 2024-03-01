@@ -73,13 +73,13 @@ rusk-wallet export -d /opt/dusk/conf -n consensus.keys
 ```
 sh /opt/dusk/bin/setup_consensus_pwd.sh
 ```
-#### ℹ️ Eğer doğru konfigürasyonu yaptıysanız node'umuzu başlatabiliriz
+#### ℹ️ Eğer doğru konfigürasyonu yaptıysanız node'umuzu başlatabiliriz.
 
 ## Node'umuzu Başlatıyoruz
 ```
 service rusk start
 ```
-#### ℹ️ Çalışıyor mu kontrol ediyoruz
+#### ℹ️ Çalışıyor mu kontrol ediyoruz.
 ```
 service rusk status
 ```
@@ -122,6 +122,27 @@ grep "execute_state_transition" /var/log/rusk.log | tail -n 5
 #### ℹ️ Bunu görüntülemek için en az 2 epoch geçmesi lazım her block 2 saniyede oluşuyor ve 2 epoch'ta 4320 block var en az 2,4 saat sürüyor, Block üretmeye başladığınızda aşağıdaki gibi bir çıktı alacaksınız:
 
 ![image](https://github.com/Alping0/DUSK-ITN/assets/105454859/b5de029f-e9e0-4634-b937-439a723a1b59)
+
+## GÜNCELLEME
+
+### ITN Güncellemesini aşağıdaki şekilde yapabilirsiniz.
+
+#### ℹ️ Önce node'umuzu durduralım
+```
+service rusk stop
+```
+#### ℹ️ Güncellemeyi yapalım
+```
+curl --proto '=https' --tlsv1.2 -sSfL https://github.com/dusk-network/itn-installer/releases/download/v0.1.5/itn-installer.sh | sudo sh
+```
+#### ℹ️ Node'u yeniden çalıştıralım
+```
+service rusk start
+```
+#### ℹ️ Bloklar akıyor mu kontrol edelim
+```
+tail -F /var/log/rusk.log
+```
 
 
 
