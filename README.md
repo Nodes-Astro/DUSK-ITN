@@ -143,8 +143,6 @@ service rusk start
 ```
 tail -F /var/log/rusk.log
 ```
-duskitn
-
 
 
 
